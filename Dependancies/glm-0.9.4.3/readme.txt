@@ -37,6 +37,46 @@ More informations in GLM manual:
 http://glm.g-truc.net/glm.pdf
 
 ================================================================================
+GLM 0.9.4.6: 2013-09-20
+--------------------------------------------------------------------------------
+- Fixed detection to select the last known compiler if newer version #106
+- Fixed is_int and is_uint code duplication with GCC and C++11 #107 
+- Fixed test suite build while using Clang in C++11 mode
+- Added c++1y mode support in CMake test suite
+- Removed ms extension mode to CMake when no using Visual C++
+- Added pedantic mode to CMake test suite for Clang and GCC
+- Added use of GCC frontend on Unix for ICC and Visual C++ fronted on Windows
+  for ICC
+- Added compilation errors for unsupported compiler versions
+- Fixed glm::orientation with GLM_FORCE_RADIANS defined #112
+- Fixed const ref issue on assignment operator taking a scalar parameter #116
+- Fixed glm::eulerAngleY implementation
+
+================================================================================
+GLM 0.9.4.5: 2013-08-12
+--------------------------------------------------------------------------------
+- Fixed CUDA support
+- Fixed inclusion of intrinsics in "pure" mode #92
+- Fixed language detection on GCC when the C++0x mode isn't enabled #95
+- Fixed issue #97: register is deprecated in C++11
+- Fixed issue #96: CUDA issues
+- Added Windows CE detection #92
+- Added missing value_ptr for quaternions #99
+
+================================================================================
+GLM 0.9.4.4: 2013-05-29
+--------------------------------------------------------------------------------
+- Fixed slerp when costheta is close to 1 #65
+- Fixed mat4x2 value_type constructor #70
+- Fixed glm.natvis for Visual C++ 12 #82
+- Added assert in inversesqrt to detect division by zero #61
+- Fixed missing swizzle operators #86
+- Fixed CUDA warnings #86
+- Fixed GLM natvis for VC11 #82
+- Fixed GLM_GTX_multiple with negative values #79
+- Fixed glm::perspective when zNear is zero #71
+
+================================================================================
 GLM 0.9.4.3: 2013-03-20
 --------------------------------------------------------------------------------
 - Detected qualifier for Clang

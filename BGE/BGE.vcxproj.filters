@@ -203,6 +203,9 @@
     <ClCompile Include="FluidGame.cpp">
       <Filter>FluidDynamics</Filter>
     </ClCompile>
+    <ClCompile Include="FluidParticle.cpp">
+      <Filter>FluidDynamics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h">
@@ -365,6 +368,9 @@
       <Filter>Labs</Filter>
     </ClInclude>
     <ClInclude Include="FluidGame.h">
+      <Filter>FluidDynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="FluidParticle.h">
       <Filter>FluidDynamics</Filter>
     </ClInclude>
   </ItemGroup>

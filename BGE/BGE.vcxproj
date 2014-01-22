@@ -84,6 +84,7 @@
     <ClCompile Include="AttackingState.cpp" />
     <ClCompile Include="FlockingScenario.cpp" />
     <ClCompile Include="FluidGame.cpp" />
+    <ClCompile Include="FluidParticle.cpp" />
     <ClCompile Include="FountainEffect.cpp" />
     <ClCompile Include="IdleState.cpp" />
     <ClCompile Include="Lab4.cpp" />
@@ -139,6 +140,7 @@
     <ClInclude Include="AttackingState.h" />
     <ClInclude Include="FlockingScenario.h" />
     <ClInclude Include="FluidGame.h" />
+    <ClInclude Include="FluidParticle.h" />
     <ClInclude Include="FountainEffect.h" />
     <ClInclude Include="IdleState.h" />
     <ClInclude Include="Lab4.h" />
