@@ -24,6 +24,5 @@ int main(int argc, char *argv[])
 	FluidGame game;
 
 	game.Run();
-
 	return 0;
 }

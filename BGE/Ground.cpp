@@ -6,8 +6,8 @@ using namespace BGE;
 
 Ground::Ground(void):GameComponent()
 {
-	width = 5000;
-	height = 5000;
+	width = 10;
+	height = 10;
 	// Diffuse will come from the texture
 	ambient = glm::vec3(0.2f, 0.2, 0.2f);
 }
@@ -74,7 +74,10 @@ bool Ground::Initialise()
     
 	programID = Content::LoadShaderPair("standard_texture");
 
-	textureID = Content::LoadTexture("grass");
+	textureID = Content::LoadTexture("trans");
+
+	glEnable( GL_BLEND );
+    glBlendFunc( GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA );
 
 	glGenBuffers(1, &vertexbuffer); 
 	glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);

@@ -1,6 +1,7 @@
 #pragma once
 #include "Game.h"
 #include "GameComponent.h"
+#include "PhysicsFactory.h"
 
 using namespace std;
 
@@ -9,6 +10,17 @@ namespace BGE
 	class FluidGame :
 		public Game
 	{
+
+		private:
+		btBroadphaseInterface* broadphase;
+ 
+		// Set up the collision configuration and dispatcher
+		btDefaultCollisionConfiguration * collisionConfiguration;
+		btCollisionDispatcher * dispatcher;
+ 
+		// The actual physics solver
+		btSequentialImpulseConstraintSolver * solver;
+
 	public:
 		FluidGame(void);
 		~FluidGame(void);
@@ -24,6 +36,8 @@ namespace BGE
 		glm::vec3 container;
 		
 		
+		std::shared_ptr<PhysicsFactory> physicsFactory;
+		btDiscreteDynamicsWorld * dynamicsWorld;
 
 		bool Initialise();
 		void Update(float timeDelta);
