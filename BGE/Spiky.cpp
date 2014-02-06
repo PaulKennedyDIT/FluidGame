@@ -67,6 +67,6 @@ glm::vec3 Spiky::CalculateGradient(glm::vec3 distance)
 
 float Spiky::CalculateLaplacian(glm::vec3 distance)
 {
-
+	return 0.0f;
 }
 

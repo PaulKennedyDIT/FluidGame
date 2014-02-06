@@ -12,7 +12,7 @@ public:
 	float kernelFactor;
 	float kernelSize;
 	float KernelSizeSquared;
-
+	float kernelSizepow3;
 private:
 	void CalculateFactor();
 	float Calculate(glm::vec3 distance);

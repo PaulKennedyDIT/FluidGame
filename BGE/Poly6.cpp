@@ -65,5 +65,5 @@ glm::vec3 Poly6::CalculateGradient(glm::vec3 distance)
 
 float Poly6::CalculateLaplacian(glm::vec3 distance)
 {
-
+	return 0.0f;
 }

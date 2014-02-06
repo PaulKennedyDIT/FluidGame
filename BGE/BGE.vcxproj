@@ -101,6 +101,7 @@
     <ClCompile Include="SceneGraphGame.cpp" />
     <ClCompile Include="SmoothingKernel.cpp" />
     <ClCompile Include="SnowEffect.cpp" />
+    <ClCompile Include="Spiky.cpp" />
     <ClCompile Include="State.cpp" />
     <ClCompile Include="SteeringGame.cpp" />
     <ClCompile Include="Utils.cpp" />
@@ -136,6 +137,7 @@
     <ClCompile Include="TexturedCube.cpp" />
     <ClCompile Include="TriangleTest.cpp" />
     <ClCompile Include="VectorDrawer.cpp" />
+    <ClCompile Include="Viscosity.cpp" />
     <ClCompile Include="VRGame.cpp" />
     <ClCompile Include="XBoxController.cpp" />
   </ItemGroup>
@@ -159,6 +161,7 @@
     <ClInclude Include="SceneGraphGame.h" />
     <ClInclude Include="SmoothingKernel.h" />
     <ClInclude Include="SnowEffect.h" />
+    <ClInclude Include="Spiky.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="SteeringGame.h" />
     <ClInclude Include="Utils.h" />
@@ -195,6 +198,7 @@
     <ClInclude Include="TexturedCube.h" />
     <ClInclude Include="TriangleTest.h" />
     <ClInclude Include="VectorDrawer.h" />
+    <ClInclude Include="Viscosity.h" />
     <ClInclude Include="VRGame.h" />
     <ClInclude Include="XBoxController.h" />
   </ItemGroup>
