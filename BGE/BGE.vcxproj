@@ -95,9 +95,11 @@
     <ClCompile Include="Particle.cpp" />
     <ClCompile Include="ParticleEffect.cpp" />
     <ClCompile Include="PathFollowingScenario.cpp" />
+    <ClCompile Include="Poly6.cpp" />
     <ClCompile Include="Route.cpp" />
     <ClCompile Include="Scenario.cpp" />
     <ClCompile Include="SceneGraphGame.cpp" />
+    <ClCompile Include="SmoothingKernel.cpp" />
     <ClCompile Include="SnowEffect.cpp" />
     <ClCompile Include="State.cpp" />
     <ClCompile Include="SteeringGame.cpp" />
@@ -151,9 +153,11 @@
     <ClInclude Include="Particle.h" />
     <ClInclude Include="ParticleEffect.h" />
     <ClInclude Include="PathFollowingScenario.h" />
+    <ClInclude Include="Poly6.h" />
     <ClInclude Include="Route.h" />
     <ClInclude Include="Scenario.h" />
     <ClInclude Include="SceneGraphGame.h" />
+    <ClInclude Include="SmoothingKernel.h" />
     <ClInclude Include="SnowEffect.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="SteeringGame.h" />

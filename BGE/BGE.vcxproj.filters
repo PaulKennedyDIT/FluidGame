@@ -206,6 +206,12 @@
     <ClCompile Include="FluidParticle.cpp">
       <Filter>FluidDynamics</Filter>
     </ClCompile>
+    <ClCompile Include="SmoothingKernel.cpp">
+      <Filter>FluidDynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="Poly6.cpp">
+      <Filter>FluidDynamics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h">
@@ -371,6 +377,12 @@
       <Filter>FluidDynamics</Filter>
     </ClInclude>
     <ClInclude Include="FluidParticle.h">
+      <Filter>FluidDynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="SmoothingKernel.h">
+      <Filter>FluidDynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="Poly6.h">
       <Filter>FluidDynamics</Filter>
     </ClInclude>
   </ItemGroup>
